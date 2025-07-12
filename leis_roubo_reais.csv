@@ -1,0 +1,51 @@
+id,crime,artigo,descricao,pena_min,pena_max
+1,furto_simples,155,Subtrair coisa móvel sem violência,1,4
+2,furto_noturno,155§1,Furto durante repouso noturno,1.33,5.33
+3,furto_privilegiado,155§2,Criminoso primário e valor pequeno,0.3,1.2
+4,furto_qualificado_obstaculo,155§4.I,Destruição/obstáculo,2,8
+5,furto_qualificado_confia,155§4.II,Abuso de confiança/fraude,2,8
+6,furto_qualificado_chave,155§4.III,Emprego de chave falsa,2,8
+7,furto_qualificado_concurso,155§4.IV,Concurso de pessoas,2,8
+8,furto_qualificado_veiculo,155§5,Subtração de veículo interestadual,3,8
+9,furto_condomino,156,Furto entre co-herdeiros/condôminos,0.5,2
+10,roubo_simples,157,Roubo com violência ou ameaça,4,10
+11,roubo_improprio,157§1,Violência após subtração,4,10
+12,roubo_armado,157§2.I,Roubo com arma de fogo/branca,5.33,15
+13,roubo_concurso,157§2.II,Roubo por mais de uma pessoa,5.33,15
+14,roubo_valor,157§2.III,Roubo de transporte de valores,5.33,15
+15,roubo_veiculo,157§2.IV,Roubo de veículo interestadual,5.33,15
+16,roubo_restricao_liberdade,157§2.V,Restringe liberdade da vítima,5.33,15
+17,roubo_lesao_grave,157§3.I,Roubo com lesão corporal grave,7,18
+18,latrocinio,157§3.II,Roubo seguido de morte,20,30
+19,roubo_com_refem,157§2.V,Roubo com restrição da liberdade da vítima,5.33,15
+20,roubo_em_ônibus,157,Roubo cometido em transporte coletivo,4,10
+21,roubo_banco_organizado,157§2.II,Roubo por quadrilha armada a banco,5.33,15
+22,roubo_doméstico,157,Roubo realizado dentro de residência,4,10
+23,roubo_violento_idoso,157§2,Violência contra idoso durante roubo,5.33,15
+24,roubo_durante_fuga,157§1,Violência para assegurar fuga após roubo,4,10
+25,roubo_de_malote,157§2.III,Roubo de malote de valores,5.33,15
+26,roubo_com_emprego_de_arma_branca,157§2.I,Roubo com faca ou objeto cortante,5.33,15
+27,roubo_com_arma_de_brinquedo,157,Simulação com arma de brinquedo,4,10
+28,roubo_frustrado,157,Tentativa de roubo com ameaça,4,10
+29,roubo_por_motoboy_falso,157§2.II,Falso entregador que comete roubo,5.33,15
+30,roubo_furto_simultaneo,157+155,Roubo seguido de furto de outros bens,5.33,15
+31,roubo_contra_correios,157§2.III,Roubo contra transporte de valores públicos,5.33,15
+32,roubo_com_dano_ambiental,157+lei9605,Roubo que causa dano à natureza,5.33,15
+33,roubo_com_emprego_de_explosivos,157§2.I,Roubo com uso de explosivos,5.33,15
+34,roubo_contra_mulher_gravida,157§2,Violência contra gestante no roubo,5.33,15
+35,roubo_em_estabelecimento_comercial,157,Roubo dentro de comércio,4,10
+36,roubo_em_via_publica,157,Roubo praticado em via pública,4,10
+37,roubo_a_mao_armada_com_lesao,157§3.I,Roubo com arma e lesão corporal,7,18
+38,latrocinio_em_residencia,157§3.II,Latrocínio cometido em domicílio,20,30
+39,latrocinio_com_arma_de_fogo,157§3.II,Latrocínio com arma de fogo,20,30
+40,latrocinio_contra_idoso,157§3.II,Latrocínio envolvendo vítima idosa,20,30
+41,latrocinio_em_concurso,157§3.II+§2.II,Latrocínio cometido por mais de uma pessoa,20,30
+42,roubo_em_estabelecimento_bancario,157§2.III,Roubo de agência bancária,5.33,15
+43,roubo_contra_empresa_de_valores,157§2.III,Roubo de carro-forte ou empresa de segurança,5.33,15
+44,roubo_com_fingimento_de_ser_policial,157§2.II,Roubo com uso de identidade falsa,5.33,15
+45,roubo_em_serie,157§2.II,Roubo praticado em sequência contra várias vítimas,5.33,15
+46,roubo_com_drogas,157+art28,Autor sob efeito de substância entorpecente,4,10
+47,roubo_em_horario_escolar,157,Cometido próximo a escola ou creche,4,10
+48,roubo_com_obstaculo_quebrado,157+155§4.I,Violência e destruição de obstáculo,5.33,15
+49,roubo_seguido_de_extorsao,157+158,Roubo associado à exigência posterior de vantagem,5.33,15
+50,roubo_com_acidente_transito,157§1,Violência para fugir após causar acidente,4,10
